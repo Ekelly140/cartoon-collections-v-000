@@ -5,7 +5,7 @@ while i < array.length
 dwarfs << "#{array} #{i}"
 i += 1
 end 
-returns dwarfs
+ dwarfs
 end
 
 def summon_captain_planet# code an argument here
