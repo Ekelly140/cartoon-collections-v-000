@@ -3,6 +3,7 @@ i = 0
 dwarfs = []
 while i < array.length 
 dwarfs << "#{i}. #{array[i]}"
+puts "#{i}. #{array[i]}"
 i += 1
 end 
  dwarfs
