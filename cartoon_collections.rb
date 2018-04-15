@@ -12,7 +12,7 @@ end
 def summon_captain_planet(array)
   call = []
   array.collect do |element| 
-  call << "#{element.upcase}!"
+  call << "#{element.capatilize}!"
   end 
   call  
 end
