@@ -9,8 +9,12 @@ end
  dwarfs
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  call = []
+  array.collect do |element| 
+  call << "#{element.upcase}!"
+  end 
+  call  
 end
 
 def long_planeteer_calls# code an argument here
