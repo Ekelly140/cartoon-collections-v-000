@@ -1,6 +1,10 @@
 def roll_call_dwarves(array)
-new array = [] 
-array.each_with_index {|name, index|
+i = 0 
+dwarfs = []
+while i < array.length 
+dwarfs << "#{array} #{i}"
+end 
+returns dwarfs
 end
 
 def summon_captain_planet# code an argument here
